@@ -25,6 +25,7 @@ public class BookApiService {
         this.httpClient = HttpClient.newHttpClient();
         this.gson = new GsonBuilder()
                 .registerTypeAdapter(LocalDate.class, new LocalDateAdapter())
+                .excludeFieldsWithoutExposeAnnotation()
                 .create();
     }
 
