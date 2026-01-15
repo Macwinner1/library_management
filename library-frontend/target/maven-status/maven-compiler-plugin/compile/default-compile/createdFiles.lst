@@ -1,0 +1,7 @@
+com\library\frontend\LibraryManagementApp.class
+com\library\frontend\util\LocalDateAdapter.class
+com\library\frontend\service\BookApiService$1.class
+com\library\frontend\service\BookApiService.class
+com\library\frontend\LibraryView.class
+com\library\frontend\service\BookApiService$2.class
+com\library\frontend\model\Book.class
