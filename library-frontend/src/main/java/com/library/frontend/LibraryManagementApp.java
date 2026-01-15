@@ -25,7 +25,6 @@ public class LibraryManagementApp extends Application {
         }
     }
 
-    System.out.print(primaryStage.show());
     public static void main(String[] args) {
         launch(args);
     }
